@@ -1,0 +1,16 @@
+<div class="top">
+   <div class="row">
+      <h2>Shop Ingredient List</h2>
+      <div class="grid">
+         <div *ngFor="let ingredient of ingredients">
+            <div class="col col-6 product">
+               <img src="{{ingredient.image}}" />
+               <h6>{{ ingredient.name }}</h6>
+               <p>$ {{ ingredient.amount }}.00</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+

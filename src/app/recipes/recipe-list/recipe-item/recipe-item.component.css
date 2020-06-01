@@ -1,0 +1,24 @@
+.recipe {
+    height: 17rem;
+}
+
+.recipe-photo {
+    border-bottom: 1px solid #ddd;
+    height: 201px;
+}
+.recipe-photo img {
+    width: 100%;
+    background-size: cover;
+    height: 10rem;
+}
+
+.recipe-title {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.recipe-desc {
+    margin-top: 10px;
+    margin-left: 15px;
+}

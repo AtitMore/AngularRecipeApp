@@ -1,0 +1,40 @@
+<header class="bg-img" *ngIf="homepage else notHomepage">
+    <nav>
+        <div class="row">
+            <div class="container">
+                <img src="assets/images/logo-white.png" alt="Omnifood logo" class="logo">
+                <ul class="nav-head-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/recipes">Recipies</a></li>
+                    <li><a href="/shopping-list">Shopping List</a></li>
+                    <li><a href="/ingredient">Ingredient</a></li>
+                </ul>
+                <a class="mobile-nav-icon white js--nav-icon"><i class="ion-navicon-round"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="hero-text-box">
+        <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
+        <div class="cover-btn">
+            <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
+        </div>
+    </div>
+</header>
+<ng-template #notHomepage>
+    <header class="head-fn">
+        <nav>
+            <div class="row">
+                <div class="container">
+                    <img src="assets/images/logo.png"  alt="Omnifood logo" class="logo-black">
+                    <ul class="nav-head-menu-black">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/recipes">Recipies</a></li>
+                        <li><a href="/shopping-list">Shopping List</a></li>
+                    </ul>
+                    <a class="mobile-nav-icon black js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+</ng-template>

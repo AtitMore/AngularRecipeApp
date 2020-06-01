@@ -1,0 +1,42 @@
+*, *:before, *:after { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    transition: all .2s ease-in-out; 
+    -moz-transition: all .2s ease-in-out; 
+    -webkit-transition: all .2s ease-in-out; 
+}
+
+.grid { 
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.product { 
+    padding: 0.5em; 
+    margin: 1%; 
+    text-align: center; 
+    border: solid 1px #ddd; 
+}
+
+.product:hover { 
+    border: solid 1px #ddd;  
+}
+
+.product img { 
+    width: 100%; 
+    height: 8rem;
+    margin-bottom: 0.9em; 
+}
+
+h6 { 
+    margin: 0; 
+    font-size: 0.85em; 
+    font-weight: normal; 
+}
+
+p { 
+    margin: 0; 
+    font-weight: bold; 
+    font-size: 0.85em; 
+}

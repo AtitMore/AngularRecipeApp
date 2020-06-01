@@ -1,0 +1,345 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+.row {
+    max-width: 100%;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+.top{
+    padding-top: 8rem;
+    overflow-y: hidden;
+}
+
+.mr-x-5{
+    margin: 0 5%;
+}
+
+.col:first-child {
+    margin-left: 0px;
+}
+
+.col {
+    float: left;
+    display: block;
+}
+
+.col-1 {
+    width: 5%;
+}
+
+.col-2 {
+    width: 10%;
+}
+
+.col-3 {
+    width: 15%;
+}
+
+.col-4 {
+    width: 20%;
+}
+
+.col-5 {
+    width: 25%;
+}
+
+.col-6 {
+    width: 30%;
+}
+
+.col-7 {
+    width: 35%;
+}
+
+.col-8 {
+    width: 40%;
+}
+
+.col-9 {
+    width: 45%;
+}
+
+.col-10 {
+    width: 50%;
+}
+
+.col-11 {
+    width: 55%;
+}
+
+.col-12 {
+    width: 60%;
+}
+
+.col-13 {
+    width: 65%;
+}
+
+.col-14 {
+    width: 70%;
+}
+
+.col-15 {
+    width: 75%;
+}
+
+.col-16 {
+    width: 80%;
+}
+
+.col-17 {
+    width: 85%;
+}
+
+.col-18 {
+    width: 90%;
+}
+
+.col-19 {
+    width: 95%;
+}
+
+.col-20 {
+    width: 100%;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+
+.mx-30{
+    margin: 0 30px;
+}
+
+.card {
+    border: 1px solid #ddd;
+}
+
+.container{
+    padding: 0 100px;
+}
+
+.mrt-20 {
+    margin-top: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+/* ------------------------
+Responsive
+---------------------------*/
+
+@media only screen and (max-width: 930px) {
+    h1{
+        font-size: 140%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+
+    .mr-x-5{
+        margin: 0 0;
+    }
+
+    .col-1 {
+        width: 50%;
+    }
+    
+    .col-2 {
+        width: 50%;
+    }
+    
+    .col-3 {
+        width: 50%;
+    }
+    
+    .col-4 {
+        width: 50%;
+    }
+    
+    .col-5 {
+        width: 50%;
+    }
+    
+    .col-6 {
+        width: 100%;
+    }
+    
+    .col-7 {
+        width: 100%;
+    }
+    
+    .col-8 {
+        width: 100%;
+    }
+    
+    .col-9 {
+        width: 100%;
+    }
+    
+    .col-10 {
+        width: 100%;
+    }
+    
+    .col-11 {
+        width: 100%;
+    }
+    
+    .col-12 {
+        width: 100%;
+    }
+    
+    .col-13 {
+        width: 100%;
+    }
+    
+    .col-14 {
+        width: 100%;
+    }
+    
+    .col-15 {
+        width: 100%;
+    }
+    
+    .col-16 {
+        width: 100%;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    h1{
+        font-size: 110%;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+    
+    .col-2 {
+        width: 100%;
+    }
+    
+    .col-3 {
+        width: 100%;
+    }
+    
+    .col-4 {
+        width: 100%;
+    }
+    
+    .col-5 {
+        width: 100%;
+    }
+    
+    .col-6 {
+        width: 100%;
+    }
+    
+    .col-7 {
+        width: 100%;
+    }
+    
+    .col-8 {
+        width: 100%;
+    }
+
+    .icon-big {
+        text-align: center;
+    }
+}

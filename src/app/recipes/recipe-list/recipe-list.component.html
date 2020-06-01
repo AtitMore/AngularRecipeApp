@@ -1,0 +1,15 @@
+<!-- <app-recipe-item *ngFor="let recipeList of recipes" 
+  [recipe]="recipeList"
+    (recipeSelector)="onRecipeSelector(recipeList)"></app-recipe-item> -->
+<div class="top over-f">
+  <h2>Recipie List</h2>
+  <div class="bt-d">
+    <button class="add-recipe-btn" routerLink="/recipes/add">Add Recipe</button>
+  </div>
+  <app-recipe-item *ngFor="let recipeList of recipeData" 
+    [recipe]="recipeList"></app-recipe-item>
+</div>
+    
+
+
+
