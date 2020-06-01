@@ -21,7 +21,8 @@ export class RecipeListComponent implements OnInit {
   fetchRecipe(){
     this.recipeService.fetchRecipe().subscribe(
       recipesData => {
-        this.recipeData = recipesData
+        this.recipeData = recipesData;
+        console.log(recipesData)
       }
     )
   }

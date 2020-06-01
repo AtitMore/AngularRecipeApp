@@ -11,6 +11,7 @@ import { Router } from "@angular/router";
 export class RecipeService {
     recipeSelected = new EventEmitter<RecipeModel>();
     error = new Subject<string>()
+    success: any
     private recipes: RecipeModel[] = [
         new RecipeModel('A test Recipe', 
         'This is the simple', 
@@ -40,14 +41,10 @@ export class RecipeService {
     }
 
     AddRecipe(recipeData: any) {
-        this.http.post('https://recipe-67b29.firebaseio.com/recipe.json', 
+        return this.http.post('https://recipe-67b29.firebaseio.com/recipe.json', 
         recipeData,
         {
             observe: 'response'
-        }).subscribe(responseData => {
-            this.route.navigate(['recipes']);
-        }, error => {
-            this.error.next(error)
         })
     }
 

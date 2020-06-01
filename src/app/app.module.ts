@@ -18,6 +18,7 @@ import { AddRecipeComponent } from './recipes/add-recipe/add-recipe.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './partials/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AlertComponent } from './shared/alert/alert.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
     DropdownDirective,
     HomeComponent,
     AddRecipeComponent,
-    FooterComponent
+    FooterComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,
