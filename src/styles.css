@@ -79,12 +79,12 @@ a:active {
     zoom: 1;
 }
 
-.top{
+.top {
     padding-top: 8rem;
     overflow-y: hidden;
 }
 
-.mr-x-5{
+.mr-x-5 {
     margin: 0 5%;
 }
 
@@ -212,6 +212,15 @@ a:active {
 
 .mb-10{
     margin-bottom: 10px;
+}
+
+.primary-btn {
+    text-align: right;
+    color: #fff;
+    background-color: rgb(34, 34, 209);
+    padding: 10px 20px;
+    border: 1px solid rgb(34, 34, 209);
+    border-radius: 5px;
 }
 
 /* ------------------------
